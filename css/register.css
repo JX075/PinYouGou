@@ -1,0 +1,156 @@
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+/* header */
+
+.header {
+    height: 82px;
+    border-bottom: 2px solid #b1191a;
+}
+
+.logo {
+    padding-top: 10px;
+}
+
+
+/* registerarea */
+
+.registerarea {
+    height: 520px;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+}
+
+.registerarea h3 {
+    height: 40px;
+    line-height: 40px;
+    border: 1px solid #ccc;
+    padding: 0 10px;
+    background-color: #ececec;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.registerarea h3 em {
+    float: right;
+    font-size: 14px;
+}
+
+.registerarea a {
+    color: #c81623;
+}
+
+.reg_form {
+    width: 600px;
+    height: 400px;
+    margin: 40px auto 0;
+}
+
+.reg_form li {
+    margin-bottom: 15px;
+}
+
+.reg_form label {
+    display: inline-block;
+    width: 100px;
+    height: 36px;
+    line-height: 36px;
+    text-align: right;
+}
+
+.reg_form .inp {
+    width: 238px;
+    height: 34px;
+    border: 1px solid #ccc;
+    margin-left: 10px;
+}
+
+.reg_form .error {
+    color: #df3033;
+    margin-left: 10px;
+}
+
+.error_icon,
+.success_icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    margin-top: -2px;
+}
+
+.error_icon {
+    background: url(../images/error.png) no-repeat;
+}
+
+.reg_form .success {
+    color: #40b83f;
+    margin-left: 10px;
+}
+
+.success_icon {
+    background: url(../images/success.png) no-repeat;
+}
+
+.reg_form .safe {
+    padding-left: 200px;
+}
+
+.reg_form .safe em {
+    padding: 0 12px;
+}
+
+.reg_form .safe .ruo {
+    background-color: #de1111;
+}
+
+.reg_form .safe .zhong {
+    background-color: #40b83f;
+}
+
+.reg_form .safe .qiang {
+    background-color: #f79100;
+}
+
+.reg_form .agree {
+    padding-left: 100px;
+    padding-top: 20px;
+}
+
+.reg_form .agree input {
+    vertical-align: middle;
+}
+
+.reg_form .agree a {
+    color: #1ba1e6;
+}
+
+.over {
+    width: 200px;
+    height: 34px;
+    border: none;
+    margin: 30px 0 0 130px;
+    background-color: #c81623;
+    color: #fff;
+    font-size: 14px;
+}
+
+
+/* footer */
+
+.footer {
+    height: 120px;
+    text-align: center;
+}
+
+.footer .links {
+    margin-top: 20px;
+    height: 30px;
+}
+
+.footer .copyright {
+    line-height: 20px;
+}
